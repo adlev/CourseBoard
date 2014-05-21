@@ -1,0 +1,12 @@
+%h1 Courses#index
+%p Find me in app/views/courses/index.html.haml
+
+%p All the courses in the system
+
+- @course_names.each do |t|
+  %li
+    = t.course_name
+
+/ <% @course_names.each do |t| %>
+/   <li> <%= t.course_name %> </li>
+/ <% end %>

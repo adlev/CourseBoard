@@ -14,7 +14,11 @@ development:
   encoding: utf8
   database: CBDB
   username: root
+<<<<<<< HEAD:config/database.yml.example.txt
   password: 
+=======
+  password: redpandas
+>>>>>>> a74ee6f60412432f1095e05d437e7546c79d775a:config/database.yml
   host: 127.0.0.1
   port: 3306
 
