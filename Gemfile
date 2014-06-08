@@ -43,3 +43,7 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# Passenger for demployment
+# based on http://dennissuratna.com/rails-deployment-aws1/
+gem 'passenger'
+
