@@ -12,11 +12,11 @@ default: &default
 development:
   adapter: mysql2
   encoding: utf8
-  database: CBDB
-  username: root
-  password: redpandas
-  host: 127.0.0.1
-  port: 3306
+  database: courseboarddb
+  username: courseboard_usr
+  password: fba.c0ur5eb0@rdKCT!
+#  host: 127.0.0.1
+#  port: 3306
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -29,8 +29,8 @@ production:
   <<: *default
   adapter: mysql2
   encoding: utf8
-  database: txtmine
-  username: txtmine
-  password: 
-  host: 127.0.0.1
-  port: 3306
+  database: courseboarddb
+  username: courseboard_usr
+  password: fba.c0ur5eb0@rdKCT!
+#  host: 127.0.0.1
+#  port: 3306
